@@ -4,3 +4,5 @@
  *   require('./bootstrap/css/bootstrap.min.css');
  * If you try using bootstrap 4, see: https://github.com/shakacode/bootstrap-loader/issues/244
  */
+// import "bootstrap/scss/bootstrap.scss";
+require('bootstrap-loader');

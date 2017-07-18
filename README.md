@@ -1,18 +1,7 @@
-# Vortigern
-[![Build Status](https://travis-ci.org/barbar/vortigern.svg?branch=master)](https://travis-ci.org/barbar/vortigern)
-[![Dependency Status](https://david-dm.org/barbar/vortigern.svg)]()
-[![devDependency Status](https://david-dm.org/barbar/vortigern/dev-status.svg)]()
-[![Code Climate](https://codeclimate.com/github/barbar/vortigern/badges/gpa.svg)](https://codeclimate.com/github/barbar/vortigern)
-[![GitHub issues](https://img.shields.io/github/issues/barbar/vortigern.svg)](https://github.com/barbar/vortigern/issues)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/barbar/vortigern/develop/LICENSE)
-___
+# opinionated boilerplate
 
-<img src="https://barbaruploads.s3.amazonaws.com/bicoz/vortigern.png" width="100%" />
-
-**Vortigern** is our opinionated boilerplate for crafting universal web applications by using modern technologies like TypeScript, React and Redux.
-
-[![TypeScript](https://barbaruploads.s3.amazonaws.com/bicoz/typescript.png)](https://www.typescriptlang.org/) 
-[![React](https://barbaruploads.s3.amazonaws.com/bicoz/react.png)](https://github.com/facebook/react) 
+[![TypeScript](https://barbaruploads.s3.amazonaws.com/bicoz/typescript.png)](https://www.typescriptlang.org/)
+[![React](https://barbaruploads.s3.amazonaws.com/bicoz/react.png)](https://github.com/facebook/react)
 [![Redux](https://barbaruploads.s3.amazonaws.com/bicoz/redux.png)](https://github.com/reactjs/redux)
 
 
@@ -26,6 +15,11 @@ Vortigern uses the following libraries and tools:
 - [Redux](https://github.com/reactjs/redux) for managing application state.
 - [React-Redux](https://github.com/reactjs/react-redux) to use React-Redux bindings.
 - [React-Router-Redux](https://github.com/reactjs/react-router-redux) to keep application state sync with route changes.
+
+#### CSS framework
+- [bootstrap 4](https://v4-alpha.getbootstrap.com/)
+- [bootstrap-loader](https://github.com/shakacode/bootstrap-loader)
+- [react-bootstrap](https://react-bootstrap.github.io)
 
 #### Utilities
 - [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch) with [ES6-Promise](https://github.com/stefanpenner/es6-promise) for using fetch api on both client & server side.
@@ -50,7 +44,7 @@ Vortigern uses the following libraries and tools:
   - [URL Loader](https://github.com/webpack/url-loader)
   - [Sourcemap Loader](https://github.com/webpack/source-map-loader)
   - [Manifest Plugin](https://github.com/danethurber/webpack-manifest-plugin)
-  - [Extract Text Plugin](https://github.com/webpack/extract-text-webpack-plugin) for exporting bundled css. 
+  - [Extract Text Plugin](https://github.com/webpack/extract-text-webpack-plugin) for exporting bundled css.
   - [tslint Loader](https://github.com/wbuchwalter/tslint-loader) for using tslint as preloader on build process.
   - [stylelint Loader](https://github.com/adrianhall/stylelint-loader) for using stylelint as preloader on build process.
   - [Istanbul Instrumenter Loader](https://github.com/deepsweet/istanbul-instrumenter-loader) for using istanbul on postload process while generating code coverage reports.
@@ -110,6 +104,7 @@ Vortigern uses the following libraries and tools:
 ├── .dockerignore               # Tells docker which files to ignore.
 ├── .gitignore                  # Tells git which files to ignore.
 ├── .stylelintrc                # Configures stylelint.
+├── .bootstraprc                # Configures bootstrap.
 ├── Dockerfile                  # Dockerfile.
 ├── favicon.ico                 # Favicon.
 ├── package.json                # Package configuration.
@@ -121,11 +116,11 @@ Vortigern uses the following libraries and tools:
 
 ## Installation
 
-You can clone from this repository or [install the latest version](https://github.com/barbar/vortigern/releases) as a zip file or a tarball. 
+You can clone from this repository
 
 ```bash
-$ git clone https://github.com/barbar/vortigern
-$ cd vortigern
+$ git clone https://github.com/
+$ cd reactBoilerPlate
 $ npm install
 ```
 
@@ -142,7 +137,7 @@ $ npm start # This starts the app in development mode
 $ NODE_ENV=production npm start # or
 $ npm run start:prod
 
-# Building 
+# Building
 
 $ npm build # This builds the app in development mode
 
@@ -166,18 +161,4 @@ $ typings install <package> --save
 
 ## Credits
 
-Vortigern is released under the [MIT license](LICENSE). 
-
-The image in this README belongs to [hhvferry.com](http://www.hhvferry.com/vortscrap.html).
-
-___
-
-## [Barbar Startup Factory](https://www.barbar.com.tr/?ref=vortigern)
-
-<a target="_blank" href="https://barbar.digital/?ref=vortigern-barbar-logo"><img src="https://barbaruploads.s3.amazonaws.com/bicoz/logo2x.png" height="55px" /></a>
-
-We help startups start and stay started by helping them plan, strategize, fund and execute their vision. 
-
-You can contact us at [hey@barbar.digital](mailto:hey@barbar.digital)
-
-Be sure to check out available [jobs at Barbar](https://github.com/barbar/hr).
+Vortigern is released under the [MIT license](LICENSE).
